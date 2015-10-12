@@ -1,5 +1,7 @@
 # R Cheat
 
+[![Build Status](https://travis-ci.org/cirosantilli/r-cheat.svg?branch=master)](https://travis-ci.org/cirosantilli/r-cheat)
+
 1. [main.r](main.r)
 
 This language should not exist.
