@@ -1,3 +1,5 @@
+# Using language: r fails,
+# I think because Travis treats it as an R package.
 before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -y make r-base-core

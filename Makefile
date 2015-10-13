@@ -1,6 +1,10 @@
+.POSIX:
+
 IN_EXT ?= .r
 
 INS := $(wildcard *$(IN_EXT))
+
+.PHONY: all clean
 
 all: $(INS)
 	fail=false ;\
@@ -17,3 +21,6 @@ all: $(INS)
 	  echo 'ALL TESTS PASSED' ;\
 	  exit 0 ;\
 	fi ;\
+
+clean:
+	rm -f *.tmp
